@@ -3,7 +3,7 @@
 # Variables
 M3U8_URL=$1 # Replace with your .m3u8 URL or file path
 OUTPUT_FILE="output.mp4"
-TEMP_DIR="segments"
+TEMP_DIR="downloads"
 FILE_LIST="filelist.txt"
 MAX_RETRIES=3       # Maximum number of retries for each segment
 LIMIT_RATE="10M"   # Limit download speed (e.g., 100K for 100KB/s)
